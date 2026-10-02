@@ -1,3 +1,10 @@
+# Notes
+
+## Snippets
+
+- `JavaScript/problem-1-multiples-of-3-and-5.js`
+
+```js
 function multiplesOf3and5(number) {
   let total = 0;
 
@@ -11,3 +18,4 @@ function multiplesOf3and5(number) {
 }
 
 console.log(multiplesOf3and5(1000)); // Output: 233168
+```
