@@ -8,6 +8,8 @@
 - https://github.com/AMALIA-LLM/AMALIA
 - https://modal.com/docs/guide/gpu#specifying-gpu-type
 - https://www.cloudping.co/
+- https://modal.com/docs/guide/servers#request-routing
+  - https://modal.com/docs/guide/region-selection#pricing
 
 ## Commands
 
