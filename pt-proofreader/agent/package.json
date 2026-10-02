@@ -1,0 +1,30 @@
+{
+  "name": "agent",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "João Palmeiro",
+    "email": "joaopalmeiro@proton.me",
+    "url": "https://joao.town/"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "mastra dev",
+    "format": "oxfmt",
+    "lint": "run-s lint:types lint:code",
+    "lint:code": "oxlint --fix",
+    "lint:types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@mastra/core": "1.71.0"
+  },
+  "devDependencies": {
+    "@types/node": "24.13.5",
+    "mastra": "1.31.3",
+    "npm-run-all2": "8.0.4",
+    "oxfmt": "0.68.0",
+    "oxlint": "1.79.0",
+    "typescript": "7.0.2"
+  }
+}
