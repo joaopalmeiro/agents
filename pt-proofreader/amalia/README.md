@@ -33,5 +33,5 @@ uv run ruff check --fix
 ```
 
 ```bash
-modal deploy
+modal deploy server.py
 ```

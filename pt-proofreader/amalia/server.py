@@ -3,10 +3,11 @@ import modal
 MODEL_NAME = "amalia-llm/AMALIA-9B-0626-DPO"
 MODEL_REVISION = "c4614b9b5c7b4fe303fa20902e692fc7dface640"
 
+GPU = "L40S"
 N_GPU = 1
 MINUTES = 60
 VLLM_PORT = 8000
-ROUTING_REGION = "us-east"
+ROUTING_REGION = "eu"
 
 vllm_image = (
     modal.Image.from_registry("nvidia/cuda:12.9.0-devel-ubuntu22.04", add_python="3.12")
@@ -22,7 +23,7 @@ app = modal.App("amalia")
 
 @app.server(
     image=vllm_image,
-    gpu=f"H200:{N_GPU}",
+    gpu=f"{GPU}:{N_GPU}",
     scaledown_window=15 * MINUTES,
     startup_timeout=10 * MINUTES,
     volumes={
@@ -30,7 +31,7 @@ app = modal.App("amalia")
         "/root/.cache/vllm": vllm_cache_vol,
     },
     port=VLLM_PORT,
-    routing_region="eu",
+    routing_region=ROUTING_REGION,
     unauthenticated=False,
 )
 class Server:
