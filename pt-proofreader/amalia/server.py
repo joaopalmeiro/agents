@@ -7,7 +7,7 @@ GPU = "L40S"
 N_GPU = 1
 MINUTES = 60
 VLLM_PORT = 8000
-ROUTING_REGION = "eu"
+ROUTING_REGION = "us-east"
 
 vllm_image = (
     modal.Image.from_registry("nvidia/cuda:12.9.0-devel-ubuntu22.04", add_python="3.12")

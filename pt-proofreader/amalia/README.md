@@ -33,5 +33,5 @@ uv run ruff check --fix
 ```
 
 ```bash
-modal deploy server.py
+MODAL_TOKEN_ID="op://Development/Modal/MODAL_TOKEN_ID" MODAL_TOKEN_SECRET="op://Development/Modal/MODAL_TOKEN_SECRET"  op run -- uv run modal deploy server.py
 ```
