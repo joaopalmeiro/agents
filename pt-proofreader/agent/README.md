@@ -21,5 +21,5 @@ npm run format
 ```
 
 ```bash
-npm run dev
+AMALIA_ENDPOINT="op://Development/Modal/AMALIA_ENDPOINT" BEARER_TOKEN="op://Development/Modal/BEARER_TOKEN" op run -- npm run dev
 ```

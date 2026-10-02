@@ -8,6 +8,8 @@
 - https://letraaletra.pt/: "Além da revisão da ortografia, gramática, clareza e coerência de qualquer texto escrito em português, dependendo do tipo de documento ou da necessidade, podem ser revistos outros aspectos."
 - https://www.apportugal.com/servicos/revisao-de-textos/: "A AP|PORTUGAL coloca à sua disposição o serviço de revisão de textos nas mais variadas línguas. A nossa equipa de revisores especializados dispõe de ferramentas e metodologias, que permitem uma revisão eficaz e sem erros, tanto a nível gramatical, sintática, semântica e terminológica, ortográfica e da pontuação, assim como da formatação e paginação."
 - https://pt.wikipedia.org/wiki/Revisor_de_textos
+- https://mastra.ai/models#select-the-openai-responses-api
+- https://mastra.ai/models#example-lmstudio: `id: "lmstudio/qwen/qwen3-30b-a3b-2507"`
 
 ## Commands
 
