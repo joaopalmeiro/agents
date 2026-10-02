@@ -10,6 +10,8 @@
 - https://pt.wikipedia.org/wiki/Revisor_de_textos
 - https://mastra.ai/models#select-the-openai-responses-api
 - https://mastra.ai/models#example-lmstudio: `id: "lmstudio/qwen/qwen3-30b-a3b-2507"`
+- https://docs.vllm.ai/projects/vllm-omni/en/latest/serving/chat_completions_api/: `/v1/chat/completions`
+- https://languagetool.org/pt/verificacao-ortografica-portugues: "Cole aqui seu texto...ou verifique esta texto, afim de revelar alguns dos dos problemas que o LanguageTool consegue detectar. Isto tal vez permita corrigir os seus erro. Nós prometo ajudá-lo. para testar a grafia e as regrs do antigo) Acordo Ortográfico,, verifique o mesmo texto mesmo texto em Português de Angola ou Português do Moçambique e faça a analise dos resultados.. Nossa equipe anuncia a versão 4.5, que será lançada sexta-feira, 26 de março de 2019."
 
 ## Commands
 
